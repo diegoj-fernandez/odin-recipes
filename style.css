@@ -1,0 +1,32 @@
+* {
+    background-color: #C4A484;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    background-color: #e7acaa;
+}
+
+h3 {
+    background-color: #9cb8a0;
+}
+
+.main-body {
+    text-align: center;
+}
+
+ul.no-bullets {
+    list-style-type: none;
+}
+
+.food-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 450px;
+}
