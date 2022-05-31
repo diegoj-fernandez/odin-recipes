@@ -1,32 +1,68 @@
 * {
+    /*border: 1px solid red;
     background-color: #C4A484;
+    color: white;*/
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    height: 100vh;
+    width: auto;
+    background: #C4A484;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     color: white;
+    gap: 10px;
+    padding: 10px 0;
 }
 
-h1 {
-    text-align: center;
+.main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
 }
 
-h2 {
-    background-color: #e7acaa;
+.recipe-button {
+    background-size: cover;
+    background-position: center;
+    height: 25vh;
+    width: 25vh;
+    border: 2px solid black;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px black;
+    color: rgba(255,255,255,0);
+    font-size: 30px;
 }
 
-h3 {
-    background-color: #9cb8a0;
+.recipe-button:hover {
+    transform: scale(1.1);
+    text-shadow: 1px 1px 2px #000000;
+    color: rgba(255,255,255,1);
 }
 
-.main-body {
-    text-align: center;
+#one {
+    background-image: url("./img/penne.jpg");
+    transition: all 500ms;
 }
 
-ul.no-bullets {
-    list-style-type: none;
+#two {
+    background-image: url("./img/meatonthebone.jpg");
+    transition: all 500ms;
 }
 
-.food-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-    width: 450px;
+#three {
+    background-image: url("./img/flan.jpg");
+    transition: all 500ms;
 }
