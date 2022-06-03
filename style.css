@@ -7,7 +7,7 @@
 body {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    /*height: 100vh;*/
     width: auto;
     background: #C4A484;
 }
@@ -19,7 +19,8 @@ body {
     justify-content: center;
     color: white;
     gap: 10px;
-    padding: 10px 0;
+    height: 25vh;
+    width: auto;
 }
 
 .header h1 {
@@ -33,7 +34,7 @@ body {
     justify-content: center;
     gap: 20px;
     align-items: center;
-    padding: 20px;
+    padding-bottom: 60px;
 }
 
 .image-main {
@@ -101,7 +102,7 @@ body {
 .footer {
     text-align: center;
     font-size: small;
-    padding: 5px;
+    padding: 10px;
     color: white;
     border-top: 1px solid white;
 }
